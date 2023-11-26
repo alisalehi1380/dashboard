@@ -24,7 +24,8 @@
                             <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">ورود</button>
                         </div>
                     </form>
-                        <p class="mt-4 text-sm text-center">
+                    <p class="mt-2 text-sm text-center"><a href="{{ route('otp1') }}">ورود با رمز یکبار مصرف</a></p>
+                        <p class="mt-2 text-sm text-center">
                             اکانتی ندارید؟
                             <a href="{{ route('register') }}" class="text-primary text-gradient font-weight-bold me-1">ثبت نام</a>
                         </p>
